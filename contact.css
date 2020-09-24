@@ -1,0 +1,49 @@
+#topo{
+    width: 800px;
+    margin: auto;
+    background: #fdfdfd;
+    padding: 5px 20px;
+    float: none;
+}
+header h1{
+    padding: 0px 30px;
+    color: #07924c;
+}
+header nav ul{
+    list-style: none;
+    padding-left: auto;
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+header nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: calisto mt;
+    font-weight: bold;
+    color: #8a8a8a;
+}
+header nav ul li a:hover{
+    color: #07924c;
+}
+section table{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: calisto mt;
+    color: #8a8a8a;
+    margin: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+section table tr td input:focus{
+    border: red;
+}
+section h2{
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: calisto mt;
+}

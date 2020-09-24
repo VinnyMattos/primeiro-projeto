@@ -1,0 +1,94 @@
+#topo{
+    width: 800px;
+    margin: auto;
+    background: none;
+    padding: 5px 20px;
+    float: none;
+}
+header h1{
+    padding: 0px 30px;
+    color: #07924c;
+}
+header nav ul{
+    list-style: none;
+    padding-left: auto;
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+header nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    font-family: calisto mt;
+    font-weight: bold;
+    color: #8a8a8a;
+}
+header nav ul li a:hover{
+    color: #07924c;
+}
+section{
+    padding-top: 50px;
+}
+section h2{
+    margin: auto;
+    padding-top: auto;
+    padding-left: 140px;
+}
+#underline{
+    color: rgb(53, 100, 6);
+}
+#name{
+    font-size: 35px;
+    font-family: calisto mt;
+}
+#boxupper{
+    display: flex;
+    flex-direction: row;
+    color: #8a8a8a;
+    padding-top: 25px;
+    padding-left: 140px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+#boxlower{
+    display: flex;
+    flex-direction: row;
+    color: #8a8a8a;
+    padding-top: 25px;
+    padding-left: 140px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+#cte{
+    text-align: right;
+    padding-left: 250px;
+}
+#wsl{
+    text-align: right;
+    padding-left: 180px;
+}
+body{
+    background-color: #206442;
+    size: 45px;
+    border-radius: 35%;
+    font-size: 20px;
+    color: white;
+}
+section input{
+    background-color: #206442;
+    size: 45px;
+    border-radius: 35%;
+    font-size: 20px;
+    color: white;
+    font-family: none;
+    padding: 12px;
+    border-bottom: 0px;
+        border: none!important;
+}
+section nav{
+    padding-left: 140px;
+}
